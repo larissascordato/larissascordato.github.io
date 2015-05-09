@@ -13,3 +13,73 @@ Test CSS
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+body {
+	font-family: avenir, helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+header {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: Avenir;
+	padding: 30px;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h1 span {
+	opacity: .6
+}
+
+section.introduction {
+	padding: 200px 25px 200px 25px;
+	padding-left: 25px;
+	background-image: url('../images/bg-image5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 25px;
+	text-align: center;
+}
+
+p {
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 30px;
+}
+
+img {
+	width: 100%;
+	border: 10px solid gray;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: Avenir;
+	padding: 30px;
+	opacity: .4;
+}
